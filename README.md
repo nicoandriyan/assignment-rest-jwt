@@ -1,11 +1,12 @@
 # assignment-rest-jwt
 
 Installation:
-1. npm i
-2. sesuaikan file config/config.json dengan database anda, dan pastikan db berjalan
-3. npx sequelize db:create
-4. npx sequelize db:migrate
-5. npx sequelize db:seed:all
+1. buat file .env sesuai dengan contoh .env.example
+2. npm i
+3. sesuaikan file config/config.json dengan database anda, dan pastikan db berjalan
+4. npx sequelize db:create
+5. npx sequelize db:migrate
+6. npx sequelize db:seed:all
 
 
 Public Route:
