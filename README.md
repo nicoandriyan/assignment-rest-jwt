@@ -13,7 +13,8 @@ Public Route:
 - POST /sign-in          =======> untuk login
 - POST /register         =======> untuk register (tetapi tidak bisa register sebagai role admin, hanya role user biasa)
 
-Route for user (hanya role admin yang bisa akses):
+Route for user:
+(hanya role admin yang bisa akses, credential admin ada di file seeders user)
 - GET /users
 - GET /users/:id
 - POST /users            =======> untuk membuat user baru (bisa juga menambah admin yang lain)
